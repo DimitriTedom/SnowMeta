@@ -1,5 +1,7 @@
 # 📌 SnowMeta — Générateur de Post LinkedIn avec IA
 
+![snow.png](./public/snow.png)
+
 **SnowMeta** est une automatisation basée sur [n8n](https://n8n.io), capable de :
 - Extraire l'ID d'une vidéo YouTube,
 - Obtenir la transcription complète via Supadata,
@@ -74,7 +76,7 @@ curl -X POST http://localhost:5678/webhook/generate-post \
 
 ```json
 {
-  "post": "Texte LinkedIn généré",
+  "linkedinPost": "Texte LinkedIn généré",
   "imagePrompt": "Prompt d'image généré"
 }
 ```
